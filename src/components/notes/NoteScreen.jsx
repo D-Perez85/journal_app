@@ -23,7 +23,7 @@ const NoteScreen = () => {
           </div>
       </div>
       <button className="btn btn-danger">
-        Delete
+        DELETE
       </button>
     </div>
   );
