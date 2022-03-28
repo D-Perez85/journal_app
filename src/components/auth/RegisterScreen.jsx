@@ -1,7 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
- const RegisterScreen = () => {
-
+const RegisterScreen = () => {
   return (
     <>
       <h3 className="auth__title">Register</h3>
@@ -11,30 +11,34 @@ import React from "react";
           type="text"
           placeholder="Name"
           name="name"
-          autoComplete="off"/>
+          autoComplete="off"
+        />
         <input
           className="auth__input"
           type="text"
           placeholder="Email"
           name="email"
-          autoComplete="off"/>
+          autoComplete="off"
+        />
         <input
           className="auth__input"
           type="password"
           placeholder="Password"
-          name="password"/>
+          name="password"
+        />
         <input
           className="auth__input"
           type="password"
           placeholder="Confirm Password"
-          name="password2"/>
-        <button
-          className="btn btn-primary btn-block"
-          type="submit"
-        >
+          name="password2"
+        />
+        <button className="btn btn-primary btn-block" type="submit">
           Register
         </button>
         <hr />
+        <Link to="/auth/login" className="link mt-5">
+          Already register?
+        </Link>
       </form>
     </>
   );

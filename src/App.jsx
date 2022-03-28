@@ -1,9 +1,10 @@
-
+import React from "react";
+import AppRouter from "./routers/AppRouter";
 
 function App() {
   return (
     <div className="app">
-      <h4>JOURNAL APP</h4>
+      <AppRouter />
     </div>
   );
 }

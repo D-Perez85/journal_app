@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 const LoginScreen = () => {
 
   return (
@@ -38,6 +38,9 @@ const LoginScreen = () => {
             </p>
           </div>
         </div>
+        <Link to="/auth/register" className="link">
+          Create a new Acount
+        </Link>
       </form>
     </>
   );
