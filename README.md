@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# JOURNAL APP -  (EN PROCESO DE CREACIÓN)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto  representa una pagina de notas, para llevar un registro de las mismas en tiempo y orden. 
 
-## Available Scripts
+La interacción con el Usuario esta pensada para darle al mismo la opción de podere hacer un CRUD (POST-GET-UPDATE-DELETE) de las notas, las cuales persisten en Firebase y a través del uso de redux poder ir haciendo los distintos cambios en el state de cada nota, (activar, desactivar, guardar, etc). 
 
-In the project directory, you can run:
+Ofrecerá formularios de Login & Register, los cuales operaran de la siguiente manera: 
+          -Login: se puede hacer con datos hardcodeados dentro del input, o loguearse con cuenta de Google personal (a traves de un botón que se ve en el form).
+          -Register: tiene sus datos hardcodeados a modo de prueba, (se puede cambiar la opcion desde el register y validar los que uno ponga). 
+          
+La pagina contara tambien con un menu lateral, donde se pueden ver cada una de las notas con su title, body, image, etc.
+Es de ahi mismo, que se puede acceder a las mimas con clickear sobre ella para modificar cualquiera de sus actions del state.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+>#### Algunos puntos importantes del proyecto: 
+              - Cuenta con la ultima version react-roouter-dom para las distintas vistas, 
+              - Redux para ir actualizando los cambios de State, 
+              - Presenta Sass como hoja de estilo en cascada, 
+              - Presenta modales que van informando de los distintos cambios en el State, (ejemplo succesful, register, etc).
+              - Firebase & Firestore para autenticar y persistir datos
+              - 
+             
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Comenzando 🚀
 
-### `npm test`
+Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+### Instalación 🔧
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### `Clonar` 
+Clonar el proyecto utilizando git clone  dentro de tu entorno local para poder obtener el codigo fuente. 
+```
+EN PROCESO DE CREACIÓN.....
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+### `Instalar Dependencias`
+Instala las dependencias necesarias para poder correr la App...
+```
+EN PROCESO DE CREACIÓN.....
+```
+### `Run`
+Una vez instaladas las dependencias podras correr la App con el comando start en el directorio del proyecto. 
+Una vez compilado podras ver el resultado en http://localhost:3000/
+```
+EN PROCESO DE CREACIÓN.....
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
+## Learn More About React
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+##
+Made with ❤️ by [Damian Perez](https://github.com/D-Perez85) 😊
