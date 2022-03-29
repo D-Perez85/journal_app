@@ -4,8 +4,7 @@ import JournalEntry from "./JournalEntry";
 const JournalEntries = () => {
   return (
     <div className="journal__entries">
-     <h3>Contenedor Entry</h3>
-        <JournalEntry/>
+         <JournalEntry/>
     </div>
   );
 };

@@ -18,8 +18,7 @@ const NoteScreen = () => {
         </textarea>
  
           <div className="notes__image">
-            {/* <img src="" alt="vista"></img> */}
-            <h4>IMAGE</h4>
+            <img src="https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832__340.jpg" alt="vista"></img>
           </div>
       </div>
       <button className="btn btn-danger">
