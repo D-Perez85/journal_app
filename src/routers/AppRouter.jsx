@@ -37,7 +37,6 @@ useEffect(() => {
     <Router>
       <div>
         <Switch>
-          <Route path="/auth" component={AuthRouter}/>
           <PublicRoute path="/auth" component={AuthRouter} isAuthenticated={isLoggedIn}/>
           <PrivateRoute exact path="/" component={JournalScreen} isAuthenticated={isLoggedIn} />
           <Redirect to="/auth/login" />
