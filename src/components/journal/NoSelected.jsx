@@ -6,7 +6,6 @@ const NoSelected = () => {
         <p>
             Select something
         </p>
-        <i className='far fa-star fa-4x mt-5'></i>
     </div>
   )
 }
