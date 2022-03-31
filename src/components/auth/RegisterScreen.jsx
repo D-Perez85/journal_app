@@ -14,8 +14,8 @@ const RegisterScreen = () => {
   const {msgError} = selector; 
  
   const [values, handleInputChange] = useForm({
-    name: "Damian Perez",
-    email: "dperez@gmail.com",
+    name: "Username",
+    email: "user@gmail.com",
     password: "123456",
     password2: "123456",
   });
