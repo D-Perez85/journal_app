@@ -1,6 +1,7 @@
 import React from "react";
-
-const JournalEntry = () => {
+import moment from "moment";
+const JournalEntry = ({ id, date, title, url, body }) => {
+  const noteDate = moment(date);
 
   return (
     <div className="journal__entry pointer">
@@ -14,13 +15,13 @@ const JournalEntry = () => {
         ></div>
    
       <div className="journal__entry-body">
-        <p className="journal__entry-title">title</p>
-        <p className="journal__entry-content">body</p>
+      <p className="journal__entry-title">{title}</p>
+        <p className="journal__entry-content">{body}</p>
       </div>
 
       <div className="journal__date-box">
-        <span>date</span>
-        <h4>day</h4>
+      <span>{noteDate.format("dddd")}</span>
+        <h4>{noteDate.format("Do")}</h4>
       </div>
     </div>
   );
