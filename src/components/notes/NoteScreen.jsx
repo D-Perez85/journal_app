@@ -33,7 +33,7 @@ const NoteScreen = () => {
       <div className="notes__content">
         <input
           type="text"
-          placeholder="Some awesome title"
+          placeholder="Write a title for the note..."
           name="title"
           className="notes__title-input"
           value={title}
@@ -41,7 +41,7 @@ const NoteScreen = () => {
         />
         <textarea
           name="body"
-          placeholder="what happend today"
+          placeholder="Write a description..."
           className="notes__text-area"
           value={body}
           onChange={handleInputChange}

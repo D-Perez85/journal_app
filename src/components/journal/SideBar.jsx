@@ -19,14 +19,10 @@ const handleAddNew = () =>{
   return (
     <aside className='journal__sidebar'>
         <div className='journal__sidebar-navbar'>
-            <h3 className='mt-5'>
-                <span> {name} </span>
-            </h3>
-            <button className='btn'onClick={handleLogOut}>LogOut</button>
+            <button className='btn'onClick={handleAddNew}>ADD NOTE</button>
+            <button className='btn'onClick={handleLogOut}>LOGOUT</button>
         </div>
         <div className='journal__new-entry' >
-            <i className="fa-solid fa-plus"></i>
-            <p className='mt-5' onClick={handleAddNew}>New Entry</p>
             <JournalEntries/>
         </div>
     </aside>

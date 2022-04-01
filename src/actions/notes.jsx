@@ -95,6 +95,7 @@ export const startDeleting = (id) =>{
        //  const {uid} = getState().auth;  OPCION 2 
      await db.doc(`${uid}/journal/notes/${id}`).delete(); 
      dispatch(deleteNote(id)); 
+     Swal.fire("Deleted", "success");
      } 
  }
  

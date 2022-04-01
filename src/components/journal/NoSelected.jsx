@@ -4,7 +4,7 @@ const NoSelected = () => {
   return (
     <div className='no__main-content'>
         <p>
-            Select something
+            Click over one note for edition or ADD NOTE to Start
         </p>
     </div>
   )
