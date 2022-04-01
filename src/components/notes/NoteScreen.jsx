@@ -46,8 +46,7 @@ const NoteScreen = () => {
         {note.url && (
           <div className="notes__image">
             <img
-              src="https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832__340.jpg"
-              alt="vista"
+              src={note.url} alt="vista"
             ></img>
           </div>
         )}
