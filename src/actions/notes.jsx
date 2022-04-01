@@ -103,3 +103,8 @@ export const startDeleting = (id) =>{
      payload: id
  })
  
+
+ export const noteLogout = () => ({
+    type: types.notesLogoutCleaning
+});
+
