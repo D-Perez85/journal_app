@@ -1,25 +1,24 @@
-# JOURNAL APP -  (EN PROCESO DE CREACIÓN)
+# JOURNAL APP - 
 
-Este proyecto  representa una pagina de notas, para llevar un registro de las mismas en tiempo y orden. 
+Este proyecto  representa una pagina de notas, para llevar un registro de las mismas. 
 
-La interacción con el Usuario esta pensada para darle al mismo la opción de podere hacer un CRUD (POST-GET-UPDATE-DELETE) de las notas, las cuales persisten en Firebase y a través del uso de redux poder ir haciendo los distintos cambios en el state de cada nota, (activar, desactivar, guardar, etc). 
+La interacción con el Usuario esta pensada para darle al mismo la opción de podere hacer un CRUD (POST-GET-UPDATE-DELETE) de las notas, las cuales persisten en Firebase y a través del uso de redux poder ir haciendo los distintos cambios en el state de cada nota, (activar, editar, guardar y borrar). 
 
 Ofrecerá formularios de Login & Register, los cuales operaran de la siguiente manera: 
           -Login: se puede hacer con datos hardcodeados dentro del input, o loguearse con cuenta de Google personal (a traves de un botón que se ve en el form).
-          -Register: tiene sus datos hardcodeados a modo de prueba, (se puede cambiar la opcion desde el register y validar los que uno ponga). 
+          -Register: tiene los datos hardcodeados a modo de prueba, (se puede cambiar la opcion desde FormRegister para su validación). 
           
-La pagina contara tambien con un menu lateral, donde se pueden ver cada una de las notas con su title, body, image, etc.
-Es de ahi mismo, que se puede acceder a las mimas con clickear sobre ella para modificar cualquiera de sus actions del state.
+La pagina cuenta tambien con un menu lateral donde se pueden ver cada una de las notas con su:  title, body, image.
+Se puede acceder a las mismas con clickear sobre ellas, en busca de  para modificar cualquiera de sus actions del state (redux). 
 
 
 >#### Algunos puntos importantes del proyecto: 
               - Cuenta con la ultima version react-roouter-dom para las distintas vistas, 
-              - Redux para ir actualizando los cambios de State, 
+              - Redux para ir actualizando los cambios de State a modo global, 
               - Presenta Sass como hoja de estilo en cascada, 
-              - Presenta modales que van informando de los distintos cambios en el State, (ejemplo succesful, register, etc).
+              - Presenta modales que van informando de los distintos cambios en el State, (ejemplo succesful, register,error etc).
               - Firebase & Firestore para autenticar y persistir datos
-              - 
-             
+                        
 
 ## Comenzando 🚀
 
@@ -31,19 +30,19 @@ Estas instrucciones te permitirán obtener una copia del proyecto en funcionamie
 ### `Clonar` 
 Clonar el proyecto utilizando git clone  dentro de tu entorno local para poder obtener el codigo fuente. 
 ```
-EN PROCESO DE CREACIÓN.....
+https://github.com/D-Perez85/journal_app.git
 
 ```
 ### `Instalar Dependencias`
 Instala las dependencias necesarias para poder correr la App...
 ```
-EN PROCESO DE CREACIÓN.....
+npm install
 ```
 ### `Run`
 Una vez instaladas las dependencias podras correr la App con el comando start en el directorio del proyecto. 
 Una vez compilado podras ver el resultado en http://localhost:3000/
 ```
-EN PROCESO DE CREACIÓN.....
+npm start
 ```
 
 ## Learn More About React
